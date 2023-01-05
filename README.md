@@ -1,9 +1,9 @@
-# jpx-image
+# jpx-decode
 
 This module helps with decoding the JPEG 2000 code stream. All in vanilla javascript with no dependencies.
 
 ```javascript
-import { JpxImage } from 'jpx-image'
+import { JpxImage } from 'jpx-decode'
 
 const codestream = Buffer.from('ff4fff5100290000...', 'hex')
 

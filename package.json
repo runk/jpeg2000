@@ -1,6 +1,6 @@
 {
-  "name": "jpx-image",
-  "version": "1.0.0",
+  "name": "jpx-decode",
+  "version": "0.0.0-development",
   "description": "JPEG 2000 image decoder in JavaScript",
   "keywords": [
     "jpeg 2000",
@@ -33,5 +33,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/runk/jpx.git"
+  },
+  "release": {
+    "branches": ["main"]
   }
 }
