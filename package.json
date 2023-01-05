@@ -1,0 +1,27 @@
+{
+	"name": "jpx",
+	"version": "1.0.0",
+	"description": "JPEG 2000 image decoder in JavaScript",
+	"keywords": [
+		"jpeg 2000",
+		"jp2",
+		"jpeg2000",
+		"jpx",
+		"codestream",
+		"code stream",
+		"jpeg"
+	],
+	"main": "src/index.js",
+	"type": "module",
+	"files": [
+		"src"
+	],
+	"scripts": {
+		"test": "mocha --recursive src/**/*.test.js"
+	},
+	"author": "",
+	"license": "Apache-2.0",
+	"devDependencies": {
+		"mocha": "^10.2.0"
+	}
+}
