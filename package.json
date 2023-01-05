@@ -17,7 +17,7 @@
 		"src"
 	],
 	"scripts": {
-		"test": "mocha --recursive src/**/*.test.js"
+		"test": "mocha --recursive **/*.test.js"
 	},
 	"author": "",
 	"license": "Apache-2.0",
