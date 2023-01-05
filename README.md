@@ -1,6 +1,6 @@
 # jpx-decode
 
-This module helps with decoding the JPEG 2000 code stream. All in vanilla javascript with no dependencies.
+This module helps with decoding the JPEG 2000 code stream. All in vanilla javascript with no dependencies. Typings included.
 
 ```javascript
 import { JpxImage } from 'jpx-decode'
