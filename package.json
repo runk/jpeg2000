@@ -21,7 +21,8 @@
     "src"
   ],
   "scripts": {
-    "test": "mocha --recursive **/*.test.js"
+    "test": "mocha --recursive **/*.test.js",
+    "semantic-release": "semantic-release"
   },
   "author": "Dmitry Shirokov <deadrunk@gmail.com>",
   "license": "Apache-2.0",
@@ -35,6 +36,8 @@
     "url": "https://github.com/runk/jpx.git"
   },
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   }
 }
