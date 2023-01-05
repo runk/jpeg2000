@@ -1,3 +1,3 @@
-import { JpxImage } from './jpx.js'
+const { JpxImage } = require('./jpx.js')
 
-export { JpxImage }
+module.exports = { JpxImage }

@@ -9,10 +9,14 @@
     "jpx",
     "codestream",
     "code stream",
-    "jpeg"
+    "jpeg",
+    "jpc",
+    "j2k",
+    "ISO/IEC 15444-1",
+    "ISO/IEC 15444-2"
   ],
+  "typings": "src/index.d.ts",
   "main": "src/index.js",
-  "type": "module",
   "files": [
     "src"
   ],

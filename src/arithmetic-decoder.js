@@ -179,4 +179,4 @@ class ArithmeticDecoder {
   }
 }
 
-export { ArithmeticDecoder };
+exports.ArithmeticDecoder= ArithmeticDecoder ;

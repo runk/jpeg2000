@@ -12,9 +12,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { info, warn } from "./log.js";
-import { log2, readUint16, readUint32 } from "./core-utils.js";
-import { ArithmeticDecoder } from "./arithmetic-decoder.js";
+const { info, warn } = require("./log.js")
+const { log2, readUint16, readUint32 } = require("./core-utils.js")
+const { ArithmeticDecoder } = require("./arithmetic-decoder.js")
 
 class JpxError extends Error {
   constructor(msg) {
@@ -2380,4 +2380,4 @@ var JpxImage = (function JpxImageClosure() {
   return JpxImage;
 })();
 
-export { JpxImage };
+module.exports = { JpxImage };
