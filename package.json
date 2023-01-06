@@ -1,5 +1,5 @@
 {
-  "name": "jpx-decode",
+  "name": "jpeg2000",
   "version": "0.0.0-development",
   "description": "JPEG 2000 image decoder in JavaScript",
   "keywords": [
